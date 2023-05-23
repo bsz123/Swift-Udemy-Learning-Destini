@@ -25,7 +25,11 @@ class ViewController: UIViewController {
     
     @IBAction func choiceMade(_ sender: UIButton) {
         
-        storyBrain.nextStory(sender.titleLabel)
+        let choice = sender.accessibilityLabel // Was using title instead of accessibilityLabel
+        
+        storyBrain.nextStory(choice!)
+        
+        updateUI()
     }
     
     @objc func updateUI(){
