@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func choiceMade(_ sender: UIButton) {
-        if (sender.label)
-        nextStory(sender.titleLabel)
+        
+        storyBrain.nextStory(sender.titleLabel)
     }
     
     @objc func updateUI(){
