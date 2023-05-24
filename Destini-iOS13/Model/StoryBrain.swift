@@ -57,10 +57,14 @@ struct StoryBrain {
             print("choice One")
             step = stories[step].choice1Destination
         }
-        else
+        else if (userChoice == "choiceTwo")
         {
             print("choice Two")
             step = stories[step].choice2Destination
+        }
+        // throw error if it reaches here
+        else{
+            print("invalid choice")
         }
     }
     
