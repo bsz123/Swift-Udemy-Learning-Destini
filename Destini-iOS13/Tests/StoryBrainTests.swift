@@ -57,6 +57,15 @@ final class StoryBrainTests: XCTestCase {
         XCTAssertEqual(story.choice1, "I love Elton John! Hand him the cassette tape.")
         XCTAssertEqual(story.choice2, "It's him or me! You take the knife and stab him.")
         
+        var tempBrain2 = storyBrain
+        tempBrain2.nextStory("choiceTwo")
+        
+        let story2 = tempBrain2.getStoryStep()
+        
+        XCTAssert(story2.title.hasPrefix("He nods slowly"))
+        XCTAssert(story2.choice1.hasPrefix("At least he's honest"))
+        XCTAssert(story2.choice2.hasPrefix("Wait, I know how to"))
+        
         
     }
 

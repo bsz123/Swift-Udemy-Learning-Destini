@@ -11,8 +11,8 @@
   "defaultOptions" : {
     "targetForVariableExpansion" : {
       "containerPath" : "container:Destini-iOS13.xcodeproj",
-      "identifier" : "AD7631CF22FC5E7E00C6E71B",
-      "name" : "Destini-iOS13"
+      "identifier" : "4B0441472A1E3FC90074B362",
+      "name" : "Destini-iOS13Tests"
     }
   },
   "testTargets" : [
