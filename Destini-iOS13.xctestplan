@@ -13,7 +13,8 @@
       "containerPath" : "container:Destini-iOS13.xcodeproj",
       "identifier" : "4B0441472A1E3FC90074B362",
       "name" : "Destini-iOS13Tests"
-    }
+    },
+    "userAttachmentLifetime" : "keepAlways"
   },
   "testTargets" : [
     {
